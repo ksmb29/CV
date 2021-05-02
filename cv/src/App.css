@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+body, html{
+    margin: 0;
+    padding: 0;
+    background: #282846;
+}
+body{
+    font-family: Helvetica;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left{
+    width: 33%;
+    background-color: #282846;
+    float: left;
+    color: #d8ebe4;
+}
+.marcofoto{ 
+    text-align: center;
+    margin: 80px 80px 40px 80px;
+}
+.marcofoto img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 4px solid #d8ebe4;
+}
+.Nombre{
+    margin: 20px 80px;
+    text-align: center;
+}
+.nombre h1{
+    text-align: center;
+}
+.nombre .date{
+    font-weight: bold;
+}
+.contact{
+    margin: 30px;
+}
+.contact ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+.contact a{
+    color: #d8ebe4;
+}
+.contact a:hover{
+    background: #2e2e44;
+}
+.right{
+    padding-top: 25px;
+    width: 67%;
+    float: right;
+    background-color: #d8ebe4;
+    color: #007580;
+}
+.right h1{
+    color: #2e2e44;
+}
+.right .aboutme, .education, .dskills, .lskills{
+    padding: 0 35px;
+}
+.right .aboutme p, .education p, .dskills p{
+    font-size: 20px;
+}
+.education a, .date{
+    color: #282846;
+}
+.lskills h4, p{
+    font-size: 20px;
+}
+.lskills table{
+    text-align: center;
+    display: block;
+}
+.lskills table td{
+    width: 20%;
+}
+.lskills h4{
+    margin: 6px;
+}
+hr{
+    color: #007580;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
